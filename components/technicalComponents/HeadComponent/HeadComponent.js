@@ -1,4 +1,15 @@
-﻿import React, { Component } from "react";
+<!-- Hotjar Tracking Code for https://topacademy-kohl.vercel.app -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3294349,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+import React, { Component } from "react";
 import * as PropTypes from "prop-types";
 import Head from "next/head";
 import Script from "next/script"
@@ -43,7 +54,7 @@ export default class HeadComponent extends Component {
 				loaded: document.readyState === "complete"
 			});
 		});
-		hotjar.initialize(3228407, 6);
+		hotjar.initialize(3294349, 6);
 	}
 
 	render() {
@@ -68,7 +79,7 @@ export default class HeadComponent extends Component {
 					(function(){
 					var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 					s1.async=true;
-					s1.src='https://embed.tawk.to/618820a76885f60a50bab91d/1fjtrv3j1';
+					s1.src='https://embed.tawk.to/63a0b814daff0e1306dd69e0/1gklsu4dp';
 					s1.charset='UTF-8';
 					s1.setAttribute('crossOrigin','*');
 					s0.parentNode.insertBefore(s1,s0);})();`,
@@ -93,3 +104,16 @@ export default class HeadComponent extends Component {
 HeadComponent.propTypes = {
 	socialTags: PropTypes.object
 };
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/63a0b814daff0e1306dd69e0/1gklsu4dp';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
