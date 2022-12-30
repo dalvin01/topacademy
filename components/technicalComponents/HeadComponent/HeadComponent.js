@@ -79,7 +79,7 @@ export default class HeadComponent extends Component {
 					(function(){
 					var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 					s1.async=true;
-					s1.src='https://embed.tawk.to/63a0b814daff0e1306dd69e0/1gklsu4dp';
+					s1.src='https://embed.tawk.to/63a0b814daff0e1306dd69e0/1glhr2476';
 					s1.charset='UTF-8';
 					s1.setAttribute('crossOrigin','*');
 					s0.parentNode.insertBefore(s1,s0);})();`,
@@ -104,16 +104,4 @@ export default class HeadComponent extends Component {
 HeadComponent.propTypes = {
 	socialTags: PropTypes.object
 };
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63a0b814daff0e1306dd69e0/1gklsu4dp';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
