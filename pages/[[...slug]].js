@@ -14,7 +14,8 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.locations",
       "leftrightblock.locations",
       "list.elements",
-      "activity.locations"
+      "activity.locations",
+      "activity.person"
     ]
   }, preview);
 
