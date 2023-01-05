@@ -43,7 +43,8 @@ export async function getStaticProps({ params }) {
       "course.locations",
       "leftrightblock.locations",
       "list.elements",
-      "activity.locations"
+      "activity.locations",
+      "activity.person"
 
     ]
   };
