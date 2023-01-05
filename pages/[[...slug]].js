@@ -15,7 +15,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "leftrightblock.locations",
       "list.elements",
       "activity.locations",
-      "activity.person"
+      "activity.teachers"
     ]
   }, preview);
 
@@ -44,7 +44,7 @@ export async function getStaticProps({ params }) {
       "leftrightblock.locations",
       "list.elements",
       "activity.locations",
-      "activity.person"
+      "activity.teachers"
 
     ]
   };
