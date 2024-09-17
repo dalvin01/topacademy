@@ -1,4 +1,5 @@
-﻿import React, { Component } from "react";
+
+import React, { Component } from "react";
 import * as PropTypes from "prop-types";
 import Head from "next/head";
 import Script from "next/script"
@@ -43,15 +44,16 @@ export default class HeadComponent extends Component {
 				loaded: document.readyState === "complete"
 			});
 		});
-		hotjar.initialize(3228407, 6);
+		hotjar.initialize(3294349, 6);
 	}
 
 	render() {
 		const gasource = "https://www.googletagmanager.com/gtag/js?id="+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 		return <>
-			<Head>
+			<Head>				
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 				<meta lang="en" />
 				<link rel="icon" href="/images/logo/favicon@32x.png" />
@@ -67,7 +69,7 @@ export default class HeadComponent extends Component {
 					(function(){
 					var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 					s1.async=true;
-					s1.src='https://embed.tawk.to/618820a76885f60a50bab91d/1fjtrv3j1';
+					s1.src='https://embed.tawk.to/63a0b814daff0e1306dd69e0/1glhr2476';
 					s1.charset='UTF-8';
 					s1.setAttribute('crossOrigin','*');
 					s0.parentNode.insertBefore(s1,s0);})();`,
@@ -92,3 +94,4 @@ export default class HeadComponent extends Component {
 HeadComponent.propTypes = {
 	socialTags: PropTypes.object
 };
+

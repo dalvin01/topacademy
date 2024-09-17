@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 
+
 import Person from "../components/specificComponents/Person/Person";
 import Teacher from "../components/specificComponents/Teacher/Teacher";
 import Experience from '../components/specificComponents/Experience/Experience';
@@ -24,6 +25,7 @@ import TwoCol from '../components/layoutComponents/TwoCol/TwoCol';
 import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Location from '../components/specificComponents/Location/Location';
+import Activity from '../components/specificComponents/Activity/Activity';
 
 
 const components = {
@@ -43,7 +45,8 @@ const components = {
   twocol: TwoCol,
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
-  location: Location
+  location: Location,
+  activity: Activity
 };
 
 storyblokInit({
@@ -76,4 +79,5 @@ function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
-export default MyApp;
+
+export default MyApp

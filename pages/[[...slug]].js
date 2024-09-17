@@ -12,7 +12,10 @@ export default function Page({ story, preview, socialtags, menu }) {
       "location.colorcode",
       "course.teachers",
       "course.locations",
-      "list.elements"
+      "leftrightblock.locations",
+      "list.elements",
+      "activity.locations",
+      "activity.teachers"
     ]
   }, preview);
 
@@ -38,7 +41,11 @@ export async function getStaticProps({ params }) {
       "location.colorcode",
       "course.teachers",
       "course.locations",
-      "list.elements"
+      "leftrightblock.locations",
+      "list.elements",
+      "activity.locations",
+      "activity.teachers"
+
     ]
   };
 
